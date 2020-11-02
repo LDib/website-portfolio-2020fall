@@ -5,6 +5,38 @@
 }
 
 .page{
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
+}
+
+h1{
+	font-size: 3em;
+}
+
+.top-banner{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	background-color: #849CE4;
+}
+
+.banner-buttons{
+	display: flex;
+	flex-direction: column;
+	margin-right: 25px;
+}
+
+.button{
+	padding: 2px 0;
+}
+
+.menu a{
+	padding: 5px 0;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid #5D6063;
+	background-color: #E0E7FD;
 }
