@@ -40,3 +40,9 @@ h1{
 	border: 1px solid #5D6063;
 	background-color: #E0E7FD;
 }
+
+.mp3-box{
+	display:flex;
+	justify-content: center;
+	padding: 100px;
+}
