@@ -96,3 +96,19 @@ a:hover {
 a:active {
   color: inherit;
 }
+
+/*For About page*/
+
+.about-content{
+	display: flex;
+	flex-direction: column;
+	background-color: #FFEC86;
+	align-items: center;
+	height:500px;
+}
+
+.about-content p{
+	padding:10px;
+	width:800px;
+}
+
