@@ -112,3 +112,39 @@ a:active {
 	width:800px;
 }
 
+/*For Colors page*/
+
+.about-contentc{
+	display: flex;
+	flex-direction: column;
+	background-color: #E0E7FD;
+	align-items: center;
+	height:500px;
+}
+
+.about-contentc p{
+	padding:10px;
+	width:800px;
+}
+
+.about-contentc a{
+	color:blue;
+	text-decoration: underline;
+}
+
+
+
+/*For Remain Vibrant page*/
+
+.about-contentrv{
+	display: flex;
+	flex-direction: column;
+	background-color: #9F84E5;
+	align-items: center;
+	height:500px;
+}
+
+.about-contentrv p{
+	padding:10px;
+	width:800px;
+}
