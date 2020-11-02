@@ -148,3 +148,8 @@ a:active {
 	padding:10px;
 	width:800px;
 }
+
+.about-contentrv a{
+	color:lightblue;
+	text-decoration: underline;
+}
