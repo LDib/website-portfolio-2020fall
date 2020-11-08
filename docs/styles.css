@@ -55,10 +55,15 @@ h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: column;
 	padding: 100px;
 	border-left: 1px solid #5D6063;
 	border-right: 1px solid #5D6063;
 	background-color: #FFEC86;
+}
+
+.mp3-box p{
+	padding: 10px;
 }
 
 .projects-container{
