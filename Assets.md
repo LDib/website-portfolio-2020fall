@@ -6,4 +6,4 @@ Assets I need:
 -To find and put into this folder a copy of Blue and Greens (as an mp3)(and then link it)
 -images for the colors and rv boxes background. Actually, maybe not, but images for them might be good. Maybe use GIMP?
 
-<span>Photo by <a href="https://unsplash.com/@voodushevlyonniy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Valeriy Andrushko</a> on <a href="https://unsplash.com/s/photos/trees?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Trees2 is a photo by Filip Zrnzevic on Unsplash (I don't need to attribute it, but the alt text with attribution is in there under aria-label, that's one way to do alt text for a background image)
