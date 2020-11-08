@@ -163,3 +163,25 @@ a:active {
 	color:lightblue;
 	text-decoration: underline;
 }
+
+/*Responsive Design*/
+
+/*tabletish*/
+@media only screen and (max-width: 1000px){
+	.page, .mp3-box{
+		width: 100%;
+	}
+	.colors-box, .rv-box{
+		width: 50%;
+	}
+}
+
+/*mobile*/
+@media only screen and (max-width: 400px){
+	.projects-container{
+		display: block;
+	}
+	.colors-box, .rv-box{
+		width: 100%
+	}
+}
