@@ -26,6 +26,7 @@ h1{
 	justify-content: space-between;
 	padding: 20px 0;
 	background-color: #849CE4;
+	opacity: 80%
 }
 
 .banner-buttons{
@@ -45,8 +46,10 @@ h1{
 .menu{
 	display: flex;
 	justify-content: space-around;
-	border: 1px solid #5D6063;
+	border-top: 1px solid #5D6063;
+	border-bottom: 1px solid #5D6063;
 	background-color: #E0E7FD;
+	opacity: 80%;
 }
 
 .mp3-box{
@@ -57,9 +60,8 @@ h1{
 	align-items: center;
 	flex-flow: column;
 	padding: 100px;
-	border-left: 1px solid #5D6063;
-	border-right: 1px solid #5D6063;
 	background-color: #FFEC86;
+	opacity: 80%;
 }
 
 .mp3-box p{
@@ -72,9 +74,10 @@ h1{
 }
 
 .colors-box, .rv-box{
-	border: 1px solid #5D6063;
+	border-top: 1px solid #5D6063;
 	width: 500px;
   height: 300px;
+	opacity: 80%;
 }
 
 h2{
@@ -89,7 +92,7 @@ p{
 
 .colors-box{
 	background-color: #E0E7FD;
-	border-right: none;
+	border-right: 1px solid #5D6063;
 }
 
 .rv-box{
