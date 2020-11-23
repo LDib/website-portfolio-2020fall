@@ -18,7 +18,7 @@ body{
 
 h1{
 	font-size: 3em;
-	padding-left:5px;
+	padding-right: 20px;
 }
 
 .top-banner{
@@ -26,8 +26,18 @@ h1{
 	justify-content: space-between;
 	padding: 20px 0;
 	background-color: #849CE4;
-	opacity: 80%
+	opacity: 80%;
+	align-items: center;
 }
+
+.invisible{
+	padding: 2px 0;
+	display: flex;
+	flex-direction: column;
+	margin-left: 25px;
+	visibility: hidden;
+}
+
 
 .banner-buttons{
 	display: flex;
