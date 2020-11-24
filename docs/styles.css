@@ -109,21 +109,21 @@ p{
 	background-color: #9F84E5;
 }
 
-a:link{
+h2 a:link{
 	text-decoration: none;
 	color: inherit;
 	border-bottom: 2px solid currentColor;
   display: inline-block;
   line-height: 0.85;
 }
-a:visited{
+h2 a:visited{
 	text-decoration: none;
 	color: inherit;
 }
-a:hover{
+h2 a:hover{
 	opacity: 70%;
 }
-a:active{
+h2 a:active{
 	color: inherit;
 }
 
@@ -145,6 +145,22 @@ a:active{
 .menu a:active {
   color: inherit;
 }
+
+a:link{
+  text-decoration: none;
+	color: inherit;
+}
+a:visited{
+	text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  opacity: 70%;
+}
+a:active{
+  color: inherit;
+}
+
 
 
 /*For About page*/
@@ -200,7 +216,7 @@ a:active{
 }
 
 .about-contentrv a{
-	color:lightblue;
+	color: blue;
 	text-decoration: underline;
 }
 
