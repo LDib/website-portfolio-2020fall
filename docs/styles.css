@@ -109,20 +109,42 @@ p{
 	background-color: #9F84E5;
 }
 
-a:link {
-  text-decoration: none;
-  color:inherit;
+a:link{
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
 }
-a:visited {
-  color: inherit;
+a:visited{
+	text-decoration: none;
+	color: inherit;
 }
-a:hover {
-  color: #849CE4;
+a:hover{
+	opacity: 70%;
 }
-a:active {
-  color: inherit;
+a:active{
+	color: inherit;
 }
 
+.menu a:link {
+  text-decoration: underline;
+	text-decoration-color: #5f7cd1;
+  color: inherit;
+	border-bottom: none;
+}
+.menu a:visited {
+	text-decoration: underline;
+	text-decoration-color: #5f7cd1;
+  color: inherit;
+	border-bottom: none;
+}
+.menu a:hover {
+  opacity: 70%;
+}
+.menu a:active {
+  color: inherit;
+}
 
 
 /*For About page*/
