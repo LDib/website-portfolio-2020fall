@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+section, article, aside, footer, header, nav {
+  	display: block;
+}
+
 body{
 	background-image: url("txtAndImgFiles/Trees2.jpg");
 	background-position: center;
