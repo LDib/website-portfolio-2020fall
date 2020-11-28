@@ -80,6 +80,10 @@ h1{
 
 .mp3-box p{
 	padding: 10px;
+	margin-right: 17%;
+	margin-bottom: 8px;
+	font-size: 1.2em;
+	width: max-content;
 }
 
 .projects-container{
@@ -107,6 +111,16 @@ p{
 .colors-box{
 	background-color: #E0E7FD;
 	border-right: 1px solid #5D6063;
+}
+
+.colorsimg{
+	float:right;
+	padding-right: 2px;
+}
+
+.colors-box p{
+	width: 50%;
+	margin-top: 15px;
 }
 
 .rv-box{
