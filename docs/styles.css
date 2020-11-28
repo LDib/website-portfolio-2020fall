@@ -127,6 +127,16 @@ p{
 	background-color: #9F84E5;
 }
 
+.rvimg{
+	float:right;
+	padding-right: 2px;
+}
+
+.rv-box-box p{
+	width: 50%;
+	margin-top: 15px;
+}
+
 h2 a:link{
 	text-decoration: none;
 	color: inherit;
