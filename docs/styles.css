@@ -132,7 +132,7 @@ p{
 	padding-right: 2px;
 }
 
-.rv-box-box p{
+.rv-box p{
 	width: 50%;
 	margin-top: 15px;
 }
@@ -140,7 +140,6 @@ p{
 h2 a:link{
 	text-decoration: none;
 	color: inherit;
-	border-bottom: 2px solid currentColor;
   display: inline-block;
   line-height: 0.85;
 }
@@ -149,13 +148,13 @@ h2 a:visited{
 	color: inherit;
 }
 h2 a:hover{
-	opacity: 70%;
+	opacity: 50%;
 }
 h2 a:active{
 	color: inherit;
 }
 
-.menu a:link {
+.menu a:link, {
   text-decoration: underline;
 	text-decoration-color: #5f7cd1;
   color: inherit;
