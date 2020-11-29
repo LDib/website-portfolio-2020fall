@@ -260,7 +260,7 @@ a:active{
 }
 
 /*mobile*/
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
 	.projects-container{
 		display: block;
 	}
