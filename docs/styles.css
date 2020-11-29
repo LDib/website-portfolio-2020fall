@@ -154,7 +154,7 @@ h2 a:active{
 	color: inherit;
 }
 
-.menu a:link, {
+.menu a:link{
   text-decoration: underline;
 	text-decoration-color: #5f7cd1;
   color: inherit;
@@ -188,6 +188,24 @@ a:active{
   color: inherit;
 }
 
+.colors-box a:link, .rv-box a:link{
+  text-decoration: underline;
+	text-decoration-color: #5f7cd1;
+  color: inherit;
+	border-bottom: none;
+}
+.colors-box a:visited, .rv-box a:link{
+	text-decoration: underline;
+	text-decoration-color: #5f7cd1;
+  color: inherit;
+	border-bottom: none;
+}
+.colors-box a:hover, .rv-box a:hover{
+  opacity: 70%;
+}
+.colors-box a:active, .rv-box a:active{
+  color: inherit;
+}
 
 
 /*For About page*/
