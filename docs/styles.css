@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Atten-New';
+  src: url('atten-new-cufonfonts-webfont/AttenNewRegular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
 section, article, aside, footer, header, nav {
   	display: block;
 }
@@ -11,8 +18,9 @@ section, article, aside, footer, header, nav {
 body{
 	background-image: url("txtAndImgFiles/Trees2.jpg");
 	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	font-family: 'Atten-New', sans-serif;
 }
 
 .page{
@@ -188,13 +196,13 @@ a:active{
   color: inherit;
 }
 
-.colors-box a:link, .rv-box a:link{
+.colors-box a:link,.rv-box a:link{
   text-decoration: underline;
 	text-decoration-color: #5f7cd1;
   color: inherit;
 	border-bottom: none;
 }
-.colors-box a:visited, .rv-box a:link{
+.colors-box a:visited, .rv-box a:visited{
 	text-decoration: underline;
 	text-decoration-color: #5f7cd1;
   color: inherit;
