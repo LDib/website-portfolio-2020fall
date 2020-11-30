@@ -5,9 +5,23 @@
 }
 
 @font-face {
-  font-family: 'Atten-New';
-  src: url('atten-new-cufonfonts-webfont/AttenNewRegular.woff') format('woff');
+  font-family:'Montserrat';
+  src: url('Montserrat(1)/Montserrat-Regular.ttf')format('truetype');
   font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Josefin-Sans';
+  src: url('Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Josefin-Sans';
+  src: url('Josefin_Sans/static/JosefinSans-Italic.ttf') format('truetype');
+  font-style: italic;
   font-weight: 400;
 }
 
@@ -20,7 +34,7 @@ body{
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-  	font-family: 'Atten-New', sans-serif;
+  	font-family: "Montserrat", sans-serif;
 }
 
 .page{
@@ -133,6 +147,11 @@ p{
 
 .rv-box{
 	background-color: #9F84E5;
+	font-family: Josefin-Sans, sans-serif;
+}
+
+.rv-box h2{
+	font-style: italic;
 }
 
 .rvimg{
