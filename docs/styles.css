@@ -243,6 +243,7 @@ a:active{
 	background-color: #FFEC86;
 	align-items: center;
 	height:700px;
+	opacity: 80%;
 }
 
 .about-content p{
@@ -258,6 +259,7 @@ a:active{
 	background-color: #E0E7FD;
 	align-items: center;
 	height:700px;
+	opacity: 80%;
 }
 
 .about-contentc p{
@@ -280,6 +282,7 @@ a:active{
 	background-color: #9F84E5;
 	align-items: center;
 	height:700px;
+	opacity: 80%;
 }
 
 .about-contentrv p{
